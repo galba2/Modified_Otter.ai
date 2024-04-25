@@ -1,0 +1,2240 @@
+<!DOCTYPE html>
+<!-- Last Published: Thu Apr 18 2024 19:25:25 GMT+0000 (Coordinated Universal Time) -->
+<html
+  data-wf-domain="otterai-website.webflow.io"
+  data-wf-page="654929480c8d6e2becfa1921"
+  data-wf-site="618e9316785b3582a5178502"
+  lang="en"
+>
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Otter.ai - AI Meeting Note Taker &amp; Real-time AI Transcription
+    </title>
+    <meta
+      content="Otter.ai uses an AI Meeting Assistant to transcribe meetings in real time, record audio, capture slides, extract action items, and generate an AI meeting summary."
+      name="description"
+    />
+    <meta
+      content="Otter.ai - AI Meeting Note Taker &amp; Real-time AI Transcription"
+      property="og:title"
+    />
+    <meta
+      content="Otter.ai uses an AI Meeting Assistant to transcribe meetings in real time, record audio, capture slides, extract action items, and generate an AI meeting summary."
+      property="og:description"
+    />
+    <meta
+      content="https://assets-global.website-files.com/618e9316785b3582a5178502/620d386acf1b61fec39b06c6_otter-og-image-02.png"
+      property="og:image"
+    />
+    <meta
+      content="Otter.ai - AI Meeting Note Taker &amp; Real-time AI Transcription"
+      property="twitter:title"
+    />
+    <meta
+      content="Otter.ai uses an AI Meeting Assistant to transcribe meetings in real time, record audio, capture slides, extract action items, and generate an AI meeting summary."
+      property="twitter:description"
+    />
+    <meta
+      content="https://assets-global.website-files.com/618e9316785b3582a5178502/620d386acf1b61fec39b06c6_otter-og-image-02.png"
+      property="twitter:image"
+    />
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link
+      href="https://assets-global.website-files.com/618e9316785b3582a5178502/css/otterai-website.88538e7a8.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script type="text/javascript">
+      !(function (o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        (n.className += t + "js"),
+          ("ontouchstart" in o ||
+            (o.DocumentTouch && c instanceof DocumentTouch)) &&
+            (n.className += t + "touch");
+      })(window, document);
+    </script>
+    <link
+      href="https://assets-global.website-files.com/618e9316785b3582a5178502/618e94bcbca88b51e2ad81f7_favicon.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link
+      href="https://assets-global.website-files.com/618e9316785b3582a5178502/618e943a80919a98b5e9bf69_apple-icon.png"
+      rel="apple-touch-icon"
+    />
+    <link href="https://otter.ai/" rel="canonical" />
+    <style>
+      body .w-webflow-badge {
+        display: none !important;
+      }
+    </style>
+
+    <!-- OneTrust Cookies Consent Notice start for otter.ai -->
+    <script
+      src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+      type="text/javascript"
+      charset="UTF-8"
+      data-domain-script="535778f3-6e8c-4a25-847b-26013045c3ac"
+    ></script>
+    <!-- OneTrust Cookies Consent Notice end for otter.ai -->
+
+    <!-- Optimizely and Clearbit -->
+    <script type="text/plain" class="optanon-category-C0002">
+       (function () {
+         let enableOptimizelyCookieCheck = true;
+
+        	if (/^[^:]+:\/\/staging/.exec(window.location.href)) {
+           enableOptimizelyCookieCheck = true;
+       	}
+
+         if (enableOptimizelyCookieCheck) {
+           let hasCookie = document.cookie.indexOf("shouldLoadOptimizely") !== -1;
+           if (!hasCookie) {
+             const cookieExpiry = 30 * 24 * 60 * 60;
+             document.cookie = `shouldLoadOptimizely=true; max-age=${cookieExpiry}; SameSite=Lax`;
+             console.log("Setting Optimizely cookie to load for Otter Web App");
+           } else {
+             console.log("Not setting Optimizely cookie since one was already found");
+           }
+         }
+      let optimizelyLoadAttempt = 0;
+         var clearbitScriptEl = document.createElement("script");
+         clearbitScriptEl.type = "text/javascript";
+         document.head.appendChild(clearbitScriptEl);
+         clearbitScriptEl.onload = function () {
+           console.log('Clearbit has loaded, will load Optimizely next');
+           var optimizelyInterval = setInterval(() => {
+      	if (optimizelyLoadAttempt === 5) {
+               clearInterval(optimizelyInterval);
+      	  optimizelyLoadAttempt = 0;
+      	  console.error('Exhausted 5 attempts to load Optimizely, exiting now');
+               return;
+      	}
+
+             if (window.reveal) {
+               clearInterval(optimizelyInterval);
+      	  optimizelyLoadAttempt = 0;
+               var optimizelyScriptEl = document.createElement("script");
+               optimizelyScriptEl.type = "text/javascript";
+               document.head.appendChild(optimizelyScriptEl);
+               optimizelyScriptEl.src =
+                 "https://cdn.optimizely.com/js/23241510302.js";
+             } else {
+               optimizelyLoadAttempt++;
+      	}
+           }, 100);
+         };
+         clearbitScriptEl.src =
+           "https://tag.clearbitscripts.com/v1/pk_2b13f54f743de7cc7b292707f96a4bbe/tags.js";
+       })();
+    </script>
+
+    <!-- Google Tag manager -->
+    <script type="text/javascript">
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        const f = d.getElementsByTagName(s)[0];
+        const j = d.createElement(s);
+        const dl = l != "dataLayer" ? "&l=" + l : "";
+        j.setAttribute("async", "true");
+        j.setAttribute(
+          "src",
+          `https://www.googletagmanager.com/gtm.js?id=${i}${dl}`
+        );
+        d.head.appendChild(j);
+      })(window, document, "script", "dataLayer", "GTM-M866M5H");
+    </script>
+    <!-- End Google Tag manager -->
+
+    <script
+      type="text/javascript"
+      src="https://www.googletagmanager.com/gtag/js?id=G-F0G9HT49XE"
+    ></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-F0G9HT49XE");
+    </script>
+
+    <!-- Amplitude -->
+    <script type="text/javascript">
+      !(function () {
+        "use strict";
+        !(function (e, t) {
+          var r = e.amplitude || { _q: [], _iq: [] };
+          if (r.invoked)
+            e.console &&
+              console.error &&
+              console.error("Amplitude snippet has been loaded.");
+          else {
+            var n = function (e, t) {
+                e.prototype[t] = function () {
+                  return (
+                    this._q.push({
+                      name: t,
+                      args: Array.prototype.slice.call(arguments, 0),
+                    }),
+                    this
+                  );
+                };
+              },
+              s = function (e, t, r) {
+                return function (n) {
+                  e._q.push({
+                    name: t,
+                    args: Array.prototype.slice.call(r, 0),
+                    resolve: n,
+                  });
+                };
+              },
+              o = function (e, t, r) {
+                e[t] = function () {
+                  if (r)
+                    return {
+                      promise: new Promise(
+                        s(e, t, Array.prototype.slice.call(arguments))
+                      ),
+                    };
+                };
+              },
+              i = function (e) {
+                for (var t = 0; t < m.length; t++) o(e, m[t], !1);
+                for (var r = 0; r < y.length; r++) o(e, y[r], !0);
+              };
+            r.invoked = !0;
+            var a = t.createElement("script");
+            (a.type = "text/javascript"),
+              (a.integrity =
+                "sha384-PPfHw98myKtJkA9OdPBMQ6n8yvUaYk0EyUQccFSIQGmB05K6aAMZwvv8z50a5hT2"),
+              (a.crossOrigin = "anonymous"),
+              (a.async = !0),
+              (a.src =
+                "https://cdn.amplitude.com/libs/marketing-analytics-browser-0.3.2-min.js.gz"),
+              (a.onload = function () {
+                e.amplitude.runQueuedFunctions ||
+                  console.log("[Amplitude] Error: could not load SDK");
+              });
+            var c = t.getElementsByTagName("script")[0];
+            document.head.appendChild(a);
+            for (
+              var u = function () {
+                  return (this._q = []), this;
+                },
+                p = [
+                  "add",
+                  "append",
+                  "clearAll",
+                  "prepend",
+                  "set",
+                  "setOnce",
+                  "unset",
+                  "preInsert",
+                  "postInsert",
+                  "remove",
+                  "getUserProperties",
+                ],
+                l = 0;
+              l < p.length;
+              l++
+            )
+              n(u, p[l]);
+            r.Identify = u;
+            for (
+              var d = function () {
+                  return (this._q = []), this;
+                },
+                v = [
+                  "getEventProperties",
+                  "setProductId",
+                  "setQuantity",
+                  "setPrice",
+                  "setRevenue",
+                  "setRevenueType",
+                  "setEventProperties",
+                ],
+                f = 0;
+              f < v.length;
+              f++
+            )
+              n(d, v[f]);
+            r.Revenue = d;
+            var m = [
+                "getDeviceId",
+                "setDeviceId",
+                "getSessionId",
+                "setSessionId",
+                "getUserId",
+                "setUserId",
+                "setOptOut",
+                "setTransport",
+                "reset",
+              ],
+              y = [
+                "init",
+                "add",
+                "remove",
+                "track",
+                "logEvent",
+                "identify",
+                "groupIdentify",
+                "setGroup",
+                "revenue",
+                "flush",
+              ];
+            i(r),
+              (r.createInstance = function () {
+                var e = r._iq.push({ _q: [] }) - 1;
+                return i(r._iq[e]), r._iq[e];
+              }),
+              (e.amplitude = r);
+          }
+        })(window, document);
+      })();
+      amplitude.add({
+        type: "enrichment",
+        setup: function () {
+          return Promise.resolve();
+        },
+        execute: function (evt) {
+          evt.platform = "Web";
+          try {
+            if (evt.event_type === "Page View") {
+              evt.event_type = "WebPageView";
+              var url = new URL(evt.event_properties.page_location);
+              evt.event_properties = {
+                ...evt.event_properties,
+                origin: url.origin,
+                path: evt.event_properties.page_path,
+                search: url.search,
+              };
+            }
+          } catch (err) {}
+          return Promise.resolve(evt);
+        },
+      });
+
+      var amplitudeApiKey = "1edd6ec91d887d8778846bbb67d6db08";
+
+      if (/^[^:]+:\/\/staging/.exec(window.location.href)) {
+        amplitudeApiKey = "462d68bea713b4e24a17e79d9b2b2abf";
+      }
+
+      amplitude.init(amplitudeApiKey, undefined, {
+        pageViewTracking: true,
+      });
+    </script>
+    <!-- End Amplitude -->
+
+    <script type="text/plain" class="optanon-category-C0002">
+      (function () {
+      var zi = document.createElement('script');
+      zi.type = 'text/javascript';
+      zi.async = true;
+      zi.referrerPolicy = 'unsafe-url';
+      zi.src = 'https://ws.zoominfo.com/pixel/61f17c824827d70015787576';
+      document.head.appendChild(zi);
+      })();
+    </script>
+
+    <!-- Tatari Pixel -->
+    <script type="text/plain" class="optanon-category-C0002">
+      !function(){try{!function(t,i){if(!i.version){window.tatari=i,i.init=function(t,n){var e=function(t,n){i[n]=function(){t.push([n].concat(Array.prototype.slice.call(arguments,0)))}};"track pageview identify".split(" ").forEach(function(t){e(i,t)}),i._i=t,i.config=n,i.pageview()},i.version="1.2.1";var n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://d2hrivdxn8ekm8.cloudfront.net/tag-manager/377ea37d-e187-4eb2-a0eb-597a61c44720-latest.js";var e=t.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)}}(document,window.tatari||[])}catch(t){console.log(t)}}(); tatari.init('377ea37d-e187-4eb2-a0eb-597a61c44720');
+    </script>
+    <link rel="alternate" hreflang="en" href="https://otter.ai/" />
+    <link rel="alternate" hreflang="en-us" href="https://otter.ai/" />
+    <link rel="alternate" hreflang="ja-jp" href="https://otter.ai/jp" />
+
+    <style>
+      .chat__hero-video {
+        display: none;
+      }
+    </style>
+
+    <!-- JP Check -->
+    <script type="text/javascript">
+      window.onload = function () {
+        if (
+          /^ja\b/.test(navigator.language) &&
+          !window.location.pathname.startsWith("/jp")
+        ) {
+          window.location.replace("/jp");
+        }
+      };
+    </script>
+  </head>
+  <body class="cc-light-grey">
+    <div class="google-tag-manager w-embed w-iframe">
+      <!-- Google Tag Manager (noscript) -->
+      <noscript
+        ><iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-M866M5H"
+          height="0"
+          width="0"
+          style="display: none; visibility: hidden"
+        ></iframe
+      ></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+    </div>
+    <div class="css--global w-embed">
+      <style>
+        /* --- Basics --- */
+        * {
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+        /* Make the fonts nice! */
+        body {
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+        /* Link's colored from parent */
+        a {
+          color: inherit;
+        }
+
+        /* REM Magic */
+        :root {
+          font-size: 62.5%;
+        }
+        /*@media screen and (min-width: 1921px) {
+	:root {
+		font-size: 11.5px;
+	}
+}
+@media screen and (max-width: 1920px) and (min-width: 1701px) {
+	:root {
+		font-size: 10.5px;
+	}
+}*/
+        @media screen and (max-width: 1260px) and (min-width: 1201px) {
+          :root {
+            font-size: 9.2px;
+          }
+        }
+        @media screen and (max-width: 1200px) and (min-width: 1121px) {
+          :root {
+            font-size: 8.6px;
+          }
+        }
+        @media screen and (max-width: 1120px) and (min-width: 992px) {
+          :root {
+            font-size: 7.9px;
+          }
+        }
+        @media screen and (max-width: 991px) {
+          :root {
+            font-size: 10px;
+          }
+        }
+        @media screen and (max-width: 479px) {
+          :root {
+            font-size: 10px;
+          }
+        }
+
+        .w-slider-dot {
+          width: 10px;
+          height: 8px;
+          background: #8294a5;
+          opacity: 0.4;
+          transition-property: width;
+          transition-duration: 300ms;
+          transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        }
+
+        .w-slider-nav.w-round > div {
+          border-radius: 8px;
+        }
+
+        .w-slider-dot.w-active {
+          width: 20px;
+          height: 8px;
+          background-color: #007aff;
+          opacity: 1;
+        }
+
+        .w-nav-overlay,
+        .nav-menu {
+          top: 0;
+          height: auto !important;
+        }
+
+        .navbar.floating {
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06),
+            8px 15px 17px rgba(0, 0, 0, 0.05),
+            10px 58.5px 41px 16px rgba(24, 57, 89, 0.07);
+          position: sticky;
+          left: 0%;
+          top: 0%;
+          right: 0%;
+          bottom: auto;
+          background-color: white;
+        }
+      </style>
+    </div>
+    <div class="css--page-specific w-embed">
+      <style>
+        /* New UI */
+        .navbar {
+          background: #e7eaee;
+        }
+
+        /*body{
+	padding-top: 2.4rem;
+}*/
+
+        .chat__hero-video {
+          box-shadow: 0px 1.09696px 1.95625px 0px rgba(41, 58, 82, 0.02),
+            0px 2.63615px 4.70113px 0px rgba(41, 58, 82, 0.03),
+            0px 4.96363px 8.85181px 0px rgba(41, 58, 82, 0.04),
+            0px 8.85427px 15.79012px 0px rgba(41, 58, 82, 0.05),
+            0px 16.56094px 29.53368px 0px rgba(41, 58, 82, 0.04),
+            0px 39.64071px 62.76446px 0px rgba(41, 58, 82, 0.09);
+        }
+
+        .home__hero-tabs-item .text-20 {
+          font-size: 2.1rem;
+        }
+
+        .home__hero-tabs-item .text-20,
+        .hp-point .text-24 {
+          transition-property: color;
+          transition-duration: 450ms;
+          transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        }
+
+        .home__hero-tabs-item:hover .text-20,
+        .hp-point:hover .text-24 {
+          color: var(--otter-blue);
+        }
+
+        .home__hero-tabs-item.is-active .text-20 {
+          color: var(--otter-blue);
+        }
+
+        .home__hero-tabs-item.is-active,
+        .hp-point:hover {
+          border: 1px solid #e7eaee;
+          box-shadow: 0px 0.6182806491851807px 0.549582839012146px 0px #37404d04;
+          box-shadow: 0px 1.56367826461792px 1.3899362087249756px 0px #37404d06;
+          box-shadow: 0px 3.1897568702697754px 2.8353395462036133px 0px
+            #37404d07;
+          box-shadow: 0px 6.570296287536621px 5.840263366699219px 0px #37404d09;
+          box-shadow: 0px 10px 10px 0px #37404d08;
+        }
+
+        .hp-automate-main_illu {
+          box-shadow: 0px 1.1332708597183228px 2.0209999084472656px 0px
+            #293a5205;
+          box-shadow: 0px 2.723407745361328px 4.856743335723877px 0px #293a5207;
+          box-shadow: 0px 5.12793493270874px 9.144816398620605px 0px #293a5209;
+          box-shadow: 0px 9.147359848022461px 16.312789916992188px 0px #293a520d;
+          box-shadow: 0px 17.109130859375px 30.511281967163086px 0px #293a520a;
+        }
+      </style>
+    </div>
+    <div
+      data-animation="default"
+      class="navbar w-nav"
+      data-easing2="ease"
+      data-easing="ease"
+      data-collapse="medium"
+      data-w-id="1db5ac4e-7e7c-f2a5-ee70-16e95013fd04"
+      role="banner"
+      data-no-scroll="1"
+      data-duration="0"
+    >
+      <div class="nav-wrap">
+        <a
+          href="index.html"
+          aria-current="page"
+          class="brand w-nav-brand w--current"
+          ><div class="logo w-embed">
+            <svg
+              width="149"
+              height="26"
+              viewBox="0 0 149 26"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M77.8904 13.011C77.8904 17.6327 81.1256 21 85.8574 21C90.4571 21 93.8023 17.7868 93.8023 13.011C93.8023 8.23521 90.4571 5 85.8574 5C81.1256 5 77.8904 8.36726 77.8904 13.011ZM90.5891 13.011C90.5891 15.9381 88.5644 18.1169 85.8794 18.1169C83.0623 18.1169 81.1036 15.8501 81.1036 13.011C81.1036 10.1719 83.0623 7.90509 85.8794 7.90509C88.5644 7.90509 90.5891 10.0619 90.5891 13.011ZM144.441 6.80465C144.441 7.77301 145.255 8.56531 146.224 8.56531C147.214 8.56531 148.028 7.77301 148.028 6.80465C148.028 5.83628 147.214 5.04399 146.224 5.04399C145.255 5.04399 144.441 5.83628 144.441 6.80465ZM144.771 10.0839V20.8239H147.654V10.0839H144.771ZM142.693 10.0839H139.832V11.2944H139.766C138.996 10.37 137.895 9.90787 136.619 9.90787C133.736 9.90787 131.557 12.2187 131.557 15.476C131.557 18.7992 133.714 21 136.685 21C138.071 21 139.172 20.4718 139.898 19.5255H139.964V20.824H142.693V10.0839ZM139.942 15.498C139.942 17.2586 138.71 18.4251 137.213 18.4251C135.606 18.4251 134.462 17.2366 134.462 15.498C134.462 13.6493 135.695 12.4828 137.235 12.4828C138.798 12.4828 139.942 13.7813 139.942 15.498ZM128.618 21C127.628 21 126.836 20.2297 126.836 19.2613C126.836 18.2929 127.628 17.5007 128.618 17.5007C129.587 17.5007 130.401 18.2929 130.401 19.2613C130.401 20.2297 129.587 21 128.618 21ZM127.592 9.92987C127.548 9.90787 127.46 9.90787 127.372 9.90787C126.096 9.90787 124.929 10.5241 124.115 11.6685H124.093V10.0839H121.21V20.824H124.093V15.8281C124.093 14.2435 125.061 13.033 126.844 13.033C126.998 13.033 127.306 13.033 127.592 13.055V9.92987ZM119.789 15.3439C119.789 15.696 119.789 16.2022 119.723 16.3783H112.174C112.526 17.6548 113.538 18.4471 114.925 18.4471C116.069 18.4691 116.906 17.9629 117.5 17.2366L119.371 18.9753C118.446 20.1417 116.884 21 114.727 21C111.58 21 109.203 18.7992 109.203 15.4319C109.203 12.1747 111.47 9.90787 114.529 9.90787C117.676 9.90787 119.789 12.1967 119.789 15.3439ZM114.617 12.4388C113.45 12.4388 112.526 13.0771 112.196 14.3095H116.928C116.642 13.1871 115.871 12.4388 114.617 12.4388ZM103.269 17.4346C103.269 19.8555 104.479 21 106.328 21C107.78 21 108.485 20.7138 109.189 20.3397L108.441 18.0288C107.956 18.2709 107.428 18.403 107.076 18.403C106.416 18.403 106.13 17.9628 106.13 17.0385V12.4608H109.057V10.0839H106.13V6.25443L103.269 6.56255V10.0839H101.992V12.4608H103.269V17.4346ZM98.8046 21C96.9559 21 95.7454 19.8555 95.7454 17.4346V12.4608H94.469V10.0839H95.7454V6.56255L98.6065 6.25443V10.0839H101.534V12.4608H98.6065V17.0385C98.6065 17.9628 98.8926 18.403 99.5529 18.403C99.905 18.403 100.433 18.2709 100.917 18.0288L101.666 20.3397C100.961 20.7138 100.257 21 98.8046 21Z"
+                fill="#041D34"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M19.2723 12.9157C19.2723 16.3726 16.4699 19.175 13.013 19.175C9.55612 19.175 6.75375 16.3726 6.75375 12.9157C6.75375 9.4588 9.55612 6.65644 13.013 6.65644C16.4699 6.65644 19.2723 9.4588 19.2723 12.9157ZM0 13C0 20.1797 5.8203 26 13 26C20.1797 26 26 20.1797 26 13C26 5.8203 20.1797 0 13 0C5.8203 0 0 5.8203 0 13ZM32.4106 0.355957C34.3777 0.355957 35.9723 1.95056 35.9723 3.9176V22.082C35.9723 24.049 34.3777 25.6436 32.4106 25.6436C30.4436 25.6436 28.849 24.049 28.849 22.082V3.9176C28.849 1.95056 30.4436 0.355957 32.4106 0.355957ZM42.3835 0.355957C44.3506 0.355957 45.9452 1.95056 45.9452 3.9176V22.082C45.9452 24.049 44.3506 25.6436 42.3835 25.6436C40.4165 25.6436 38.8219 24.049 38.8219 22.082V3.9176C38.8219 1.95056 40.4165 0.355957 42.3835 0.355957ZM55.9177 12.1097C55.9177 10.1427 54.3231 8.5481 52.3561 8.5481C50.389 8.5481 48.7944 10.1427 48.7944 12.1097V14.2467C48.7944 16.2138 50.389 17.8084 52.3561 17.8084C54.3231 17.8084 55.9177 16.2138 55.9177 14.2467V12.1097ZM62.3288 4.98633C64.2958 4.98633 65.8904 6.58093 65.8904 8.54797V17.4521C65.8904 19.4191 64.2958 21.0137 62.3288 21.0137C60.3617 21.0137 58.7671 19.4191 58.7671 17.4521V8.54797C58.7671 6.58093 60.3617 4.98633 62.3288 4.98633Z"
+                fill="currentColor"
+              ></path>
+            </svg></div
+        ></a>
+        <nav role="navigation" class="nav-menu w-nav-menu">
+          <div class="w-layout-grid nav-items">
+            <div
+              data-hover="false"
+              data-delay="150"
+              class="nav__dropdown w-dropdown"
+            >
+              <div class="nav__dropdown-toggle w-dropdown-toggle">
+                <div class="dropdown-nav-label">Solutions</div>
+                <div class="nav__dropdown-arrow w-embed">
+                  <svg
+                    width="11"
+                    height="6"
+                    viewBox="0 0 11 6"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.5 1L5.5 5L9.5 1"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav class="nav__dropdown-list why w-dropdown-list">
+                <img
+                  src="https://assets-global.website-files.com/618e9316785b3582a5178502/61a414dfabe653bd5ac4cd29_dropdown-arrow.svg"
+                  loading="lazy"
+                  alt=""
+                  class="nav__dropdown-strip"
+                />
+                <div class="nav__dropdown-inner">
+                  <a
+                    data-tracking-type="button"
+                    href="business/index.html"
+                    class="nav__dropdown-link w-inline-block"
+                    ><img
+                      src="https://assets-global.website-files.com/618e9316785b3582a5178502/61f121930c096fd685b86d10_icon-business.svg"
+                      loading="lazy"
+                      alt=""
+                      class="nav__drop-icon"
+                    />
+                    <div class="nav__item-inner">
+                      <div class="nav__link-wrap">
+                        <div>For Business</div>
+                        <img
+                          src="https://assets-global.website-files.com/618e9316785b3582a5178502/61a3c43ef871e337b2e55c40_link-arrow.svg"
+                          loading="lazy"
+                          alt=""
+                          class="link__arrow"
+                        />
+                      </div>
+                      <div class="nav__item-description">
+                        Make meetings better with automatic notes
+                      </div>
+                    </div></a
+                  ><a
+                    data-tracking-type="button"
+                    href="sales-teams/index.html"
+                    class="nav__dropdown-link white w-inline-block"
+                    ><img
+                      src="https://assets-global.website-files.com/618e9316785b3582a5178502/61f12194c7759e1feead3ed9_icon-sales.svg"
+                      loading="lazy"
+                      alt=""
+                      class="nav__drop-icon"
+                    />
+                    <div class="nav__item-inner">
+                      <div class="nav__link-wrap">
+                        <div>For Sales</div>
+                        <img
+                          src="https://assets-global.website-files.com/618e9316785b3582a5178502/61a3c43ef871e337b2e55c40_link-arrow.svg"
+                          loading="lazy"
+                          alt=""
+                          class="link__arrow"
+                        />
+                      </div>
+                      <div class="nav__item-description">
+                        Close deals &amp; onboard new customers faster
+                      </div>
+                    </div></a
+                  ><a
+                    data-tracking-type="button"
+                    href="education/index.html"
+                    class="nav__dropdown-link w-inline-block"
+                    ><img
+                      src="https://assets-global.website-files.com/618e9316785b3582a5178502/61f1219359fd966e0df50094_icon-education.svg"
+                      loading="lazy"
+                      alt=""
+                      class="nav__drop-icon"
+                    />
+                    <div class="nav__item-inner">
+                      <div class="nav__link-wrap">
+                        <div>For Education</div>
+                        <img
+                          src="https://assets-global.website-files.com/618e9316785b3582a5178502/61a3c43ef871e337b2e55c40_link-arrow.svg"
+                          loading="lazy"
+                          alt=""
+                          class="link__arrow"
+                        />
+                      </div>
+                      <div class="nav__item-description">
+                        Help students and faculty succeed
+                      </div>
+                    </div></a
+                  ><a
+                    data-tracking-type="button"
+                    href="media-teams/index.html"
+                    class="nav__dropdown-link white w-inline-block"
+                    ><img
+                      src="https://assets-global.website-files.com/618e9316785b3582a5178502/61f12193e2c85b8d8485ef8f_icon-media.svg"
+                      loading="lazy"
+                      alt=""
+                      class="nav__drop-icon"
+                    />
+                    <div class="nav__item-inner">
+                      <div class="nav__link-wrap">
+                        <div>For Media</div>
+                        <img
+                          src="https://assets-global.website-files.com/618e9316785b3582a5178502/61a3c43ef871e337b2e55c40_link-arrow.svg"
+                          loading="lazy"
+                          alt=""
+                          class="link__arrow"
+                        />
+                      </div>
+                      <div class="nav__item-description">
+                        Create compelling stories using detailed notes
+                      </div>
+                    </div></a
+                  >
+                </div>
+              </nav>
+            </div>
+            <a
+              href="pricing/index.html"
+              data-tracking-type="button"
+              class="nav-link w-nav-link"
+              >Pricing</a
+            ><a
+              href="integrations/video-conferencing/index.html"
+              data-tracking-type="button"
+              class="nav-link w-nav-link"
+              >Apps &amp; Integrations</a
+            >
+            <div
+              data-hover="false"
+              data-delay="150"
+              class="nav__dropdown w-dropdown"
+            >
+              <div class="nav__dropdown-toggle w-dropdown-toggle">
+                <div class="dropdown-nav-label">Resources</div>
+                <div class="nav__dropdown-arrow w-embed">
+                  <svg
+                    width="11"
+                    height="6"
+                    viewBox="0 0 11 6"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.5 1L5.5 5L9.5 1"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav class="nav__dropdown-list w-dropdown-list">
+                <img
+                  src="https://assets-global.website-files.com/618e9316785b3582a5178502/61a414dfabe653bd5ac4cd29_dropdown-arrow.svg"
+                  loading="lazy"
+                  alt=""
+                  class="nav__dropdown-strip"
+                /><a
+                  data-tracking-type="button"
+                  href="blog/index.html"
+                  class="nav__dropdown-link w-inline-block"
+                  ><img
+                    src="https://assets-global.website-files.com/618e9316785b3582a5178502/61f121928ae3f8122aa21e0a_icon-blog.svg"
+                    loading="lazy"
+                    alt=""
+                    class="nav__drop-icon"
+                  />
+                  <div class="nav__item-inner">
+                    <div class="nav__link-wrap">
+                      <div>Blog</div>
+                      <img
+                        src="https://assets-global.website-files.com/618e9316785b3582a5178502/61a3c43ef871e337b2e55c40_link-arrow.svg"
+                        loading="lazy"
+                        alt=""
+                        class="link__arrow"
+                      />
+                    </div>
+                    <div class="nav__item-description">
+                      See what we’ve been up to and thinking about
+                    </div>
+                  </div></a
+                ><a
+                  data-tracking-type="button"
+                  href="press/index.html"
+                  class="nav__dropdown-link w-inline-block"
+                  ><img
+                    src="https://assets-global.website-files.com/618e9316785b3582a5178502/628ba60a4c61229051b5ae2f_press-icon.svg"
+                    loading="lazy"
+                    alt=""
+                    class="nav__drop-icon"
+                  />
+                  <div class="nav__item-inner">
+                    <div class="nav__link-wrap">
+                      <div>Press</div>
+                      <img
+                        src="https://assets-global.website-files.com/618e9316785b3582a5178502/61a3c43ef871e337b2e55c40_link-arrow.svg"
+                        loading="lazy"
+                        alt=""
+                        class="link__arrow"
+                      />
+                    </div>
+                    <div class="nav__item-description">
+                      The latest product and company news
+                    </div>
+                  </div></a
+                ><a
+                  data-tracking-type="button"
+                  href="resources/index.html"
+                  class="nav__dropdown-link w-inline-block"
+                  ><img
+                    src="https://assets-global.website-files.com/618e9316785b3582a5178502/639cee9236d2212c94db3431_resources-icon.svg"
+                    loading="lazy"
+                    id="w-node-_84738b1a-edc6-86eb-029a-d496ff7f2698-5013fd04"
+                    alt=""
+                    class="nav__drop-icon"
+                  />
+                  <div class="nav__item-inner">
+                    <div class="nav__link-wrap">
+                      <div>Resources</div>
+                      <img
+                        src="https://assets-global.website-files.com/618e9316785b3582a5178502/61a3c43ef871e337b2e55c40_link-arrow.svg"
+                        loading="lazy"
+                        alt=""
+                        class="link__arrow"
+                      />
+                    </div>
+                    <div class="nav__item-description">
+                      Explore our content library
+                    </div>
+                  </div></a
+                ><a
+                  data-tracking-type="button"
+                  href="careers/index.html"
+                  class="nav__dropdown-link w-inline-block"
+                  ><img
+                    src="https://assets-global.website-files.com/618e9316785b3582a5178502/61f121932eac368a06527914_icon-careers.svg"
+                    loading="lazy"
+                    alt=""
+                    class="nav__drop-icon"
+                  />
+                  <div class="nav__item-inner">
+                    <div class="nav__link-wrap">
+                      <div>Careers</div>
+                      <img
+                        src="https://assets-global.website-files.com/618e9316785b3582a5178502/61a3c43ef871e337b2e55c40_link-arrow.svg"
+                        loading="lazy"
+                        alt=""
+                        class="link__arrow"
+                      />
+                    </div>
+                    <div class="nav__item-description">Come join our team</div>
+                  </div></a
+                ><a
+                  data-tracking-type="button"
+                  href="https://help.otter.ai/hc/en-us"
+                  target="_blank"
+                  class="nav__dropdown-link w-inline-block"
+                  ><img
+                    src="https://assets-global.website-files.com/618e9316785b3582a5178502/61f1219394ace3639d7351e9_icon-help.svg"
+                    loading="lazy"
+                    alt=""
+                    class="nav__drop-icon"
+                  />
+                  <div class="nav__item-inner">
+                    <div class="nav__link-wrap">
+                      <div>Help &amp; Support</div>
+                      <img
+                        src="https://assets-global.website-files.com/618e9316785b3582a5178502/61a3c43ef871e337b2e55c40_link-arrow.svg"
+                        loading="lazy"
+                        alt=""
+                        class="link__arrow"
+                      />
+                    </div>
+                    <div class="nav__item-description">
+                      Need some help using Otter? Get the answers
+                    </div>
+                  </div></a
+                >
+              </nav>
+            </div>
+          </div>
+          <div class="w-layout-grid nav-items login">
+            <a
+              data-tracking-type="button"
+              href="demo/index.html"
+              class="nav-link sales"
+              >Schedule a Demo</a
+            ><a
+              data-tracking-type="button"
+              href="signin/index.html"
+              class="nav-link login"
+              >Log In</a
+            ><a
+              data-tracking-type="button"
+              href="start-for-free/index.html"
+              class="button small nav__try w-inline-block"
+              ><div class="nav__try-text">Start for Free</div>
+              <div class="nav__try-text mobile">Start for Free</div></a
+            >
+          </div>
+        </nav>
+        <div class="menu-button w-nav-button">
+          <div class="nav__menu-icon-wrap">
+            <div class="nav__menu-icon-label-wrap">
+              <div class="nav__menu-label menu">Menu</div>
+              <div class="nav__menu-label close">Close</div>
+            </div>
+            <div class="nav__menu-icon">
+              <div class="nav__menu-top-line"></div>
+              <div class="nav__menu-bottom-line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home__banner">
+      <div class="home__banner-inner cc-otterpilot">
+        <img
+          src="https://assets-global.website-files.com/618e9316785b3582a5178502/64f65edc08e977747f1389be_otterpilot-banner%402x.png"
+          loading="lazy"
+          width="401.5"
+          sizes="100vw"
+          alt=""
+          srcset="
+            https://assets-global.website-files.com/618e9316785b3582a5178502/64f65edc08e977747f1389be_otterpilot-banner%402x-p-500.png 500w,
+            https://assets-global.website-files.com/618e9316785b3582a5178502/64f65edc08e977747f1389be_otterpilot-banner%402x.png       600w
+          "
+          class="home__banner-illu"
+        />
+        <div class="home__banner-content is-pilot">
+          <div class="home__banner-pilot-content">
+            <div class="home__banner-pilot-text">
+              <span class="cc-text-blue">OtterPilot™ for Sales</span> The #1 AI
+              Tool for Sales Meetings
+              <span class="pilot_span cc-text-purple">s</span>
+            </div>
+          </div>
+          <a
+            href="sales-teams/index.html"
+            data-tracking-type="button"
+            class="button banner__pilot w-inline-block"
+            ><div>Learn more</div></a
+          >
+        </div>
+      </div>
+      <div class="home__banner-inner cc-slack">
+        <div class="home__banner-content is-slack">
+          <div class="div-block-15">
+            <div class="div-block-13">
+              <div class="home__banner-slack-tag"><div>NEW!</div></div>
+              <img
+                src="https://assets-global.website-files.com/618e9316785b3582a5178502/64de1d40da2987e15a3149de_Group%202050.svg"
+                loading="lazy"
+                alt=""
+              />
+            </div>
+            <div class="div-block-14"></div>
+            <div class="text-block-7">
+              👋🏼 &nbsp;Superpower team productivity with the Otter app for Slack
+            </div>
+          </div>
+          <a
+            href="apps/slack/index.html"
+            data-tracking-type="button"
+            class="button banner__slack w-inline-block"
+            ><div>Learn more</div></a
+          >
+        </div>
+      </div>
+      <div class="home__banner-inner cc-hidden">
+        <div class="home__banner-content">
+          <img
+            src="https://assets-global.website-files.com/618e9316785b3582a5178502/64922eeb61db700ffe6cb2af_banner-illustration%402x.png"
+            loading="lazy"
+            width="401.5"
+            alt=""
+            class="home__banner-illu"
+          />
+          <div class="home__banner-copy">
+            <div class="cc-bold">Late to the meeting?</div>
+            <div class="text-md">Catch up with Live Summary</div>
+          </div>
+        </div>
+        <a
+          href="#"
+          data-tracking-type="button"
+          class="button banner__yellow w-inline-block"
+          ><div>Learn more</div></a
+        >
+      </div>
+      <div
+        data-w-id="4ea7a928-37b4-a647-b03f-63100a183c90"
+        class="home__banner-inner cc-yello"
+      >
+        <div class="home__banner-content">
+          <img
+            src="https://assets-global.website-files.com/618e9316785b3582a5178502/61917771756c4c5b55e6eeda_otter-icon.svg"
+            loading="lazy"
+            style="
+              -webkit-transform: translate3d(0, 100%, 0) scale3d(1, 1, 1)
+                rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+              -moz-transform: translate3d(0, 100%, 0) scale3d(1, 1, 1)
+                rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+              -ms-transform: translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0)
+                rotateY(0) rotateZ(0) skew(0, 0);
+              transform: translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0)
+                rotateY(0) rotateZ(0) skew(0, 0);
+            "
+            alt=""
+            class="image-11"
+          />
+          <div class="home__banner-wall-inner">
+            <div
+              style="
+                -webkit-transform: translate3d(0, 0.8rem, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 0.8rem, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 0.8rem, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 0.8rem, 0) scale3d(1, 1, 1) rotateX(0)
+                  rotateY(0) rotateZ(0) skew(0, 0);
+                opacity: 0;
+              "
+              class="div-block-12 is-top"
+            >
+              <div class="div-block-11"></div>
+              <div class="text-block-4">AS FEATURED IN</div>
+              <div class="div-block-11"></div>
+            </div>
+            <div
+              style="
+                -webkit-transform: translate3d(0, 0.8rem, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 0.8rem, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 0.8rem, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 0.8rem, 0) scale3d(1, 1, 1) rotateX(0)
+                  rotateY(0) rotateZ(0) skew(0, 0);
+                opacity: 0;
+              "
+              class="text-block-5"
+            >
+              The Wall Street Journal
+              <span class="text-span">Best AI Apps</span>
+            </div>
+            <div
+              style="
+                -webkit-transform: translate3d(0, 0.8rem, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -moz-transform: translate3d(0, 0.8rem, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                -ms-transform: translate3d(0, 0.8rem, 0) scale3d(1, 1, 1)
+                  rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+                transform: translate3d(0, 0.8rem, 0) scale3d(1, 1, 1) rotateX(0)
+                  rotateY(0) rotateZ(0) skew(0, 0);
+                opacity: 0;
+              "
+              class="div-block-12 is-bottom"
+            >
+              <div class="div-block-11"></div>
+              <div class="text-block-6">June 2023</div>
+              <div class="div-block-11"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav__trigger"></div>
+    <div class="section">
+      <div class="wrap chat_hero">
+        <div class="home-v3__hero-wrap">
+          <div
+            id="w-node-_5d8ce918-1374-9884-24b9-ac033f6858dd-ecfa1921"
+            class="chat__hero-content"
+          >
+            <div class="chat__hero-title">
+              <h1 class="text-xxxl cc-bold">Introducing Meeting GenAI✨</h1>
+              <div class="text-base cc-text-subtle">
+                Never take meeting notes again. Get transcripts, automated
+                summaries, action items, and chat with Otter to get answers from
+                your meetings.,<br><br>
+
+                <b>Data Request Policy</b><br>
+                
+                  &emsp;We will not voluntary disclose any data.
+              </div>
+            </div>
+            <a
+              data-tracking-type="button"
+              href="start-for-free/index.html"
+              class="button w-inline-block"
+              ><div>Start for Free</div></a
+            >
+          </div>
+          <div class="home-v3_hero-tabs">
+            <div class="home__hero-tabs-item is-active">
+              <div class="hero-tabs-title">
+                <div class="text-20 cc-bold">AI Meeting Assistant</div>
+              </div>
+              <div class="text-md cc-90">
+                Get automated meeting notes and summaries with action items
+                using OtterPilot.
+              </div>
+            </div>
+            <div class="home__hero-tabs-item">
+              <div class="hero-tabs-title">
+                <div class="new__tag is-small">
+                  <div class="pricing__limited-label">New</div>
+                </div>
+                <div class="text-20 cc-bold">Otter AI Chat</div>
+              </div>
+              <div class="text-md cc-90">
+                Get answers and generate content like emails and status updates,
+                using the power of Otter AI Chat across all your meetings.
+              </div>
+            </div>
+            <div class="home__hero-tabs-item">
+              <div class="hero-tabs-title">
+                <div class="new__tag is-small">
+                  <div class="pricing__limited-label">New</div>
+                </div>
+                <div class="text-20 cc-bold">AI Channels</div>
+              </div>
+              <div class="text-md cc-90">
+                Combine live conversations with async updates. Chat with Otter
+                and teammates to get answers and drive projects forward.
+              </div>
+            </div>
+          </div>
+          <div class="hero-video-wrap is-home">
+            <div
+              data-poster-url="https://assets-global.website-files.com/618e9316785b3582a5178502/65ca439063af578816bf4724_2792_AI Meeting Assistant_1600 x 900_white bg_080224-poster-00001.jpg"
+              data-video-urls="https://assets-global.website-files.com/618e9316785b3582a5178502/65ca439063af578816bf4724_2792_AI Meeting Assistant_1600 x 900_white bg_080224-transcode.mp4,https://assets-global.website-files.com/618e9316785b3582a5178502/65ca439063af578816bf4724_2792_AI Meeting Assistant_1600 x 900_white bg_080224-transcode.webm"
+              data-autoplay="false"
+              data-loop="false"
+              data-wf-ignore="true"
+              class="chat__hero-video w-background-video w-background-video-atom"
+            >
+              <video
+                id="5d8ce918-1374-9884-24b9-ac033f6858ed-video"
+                style="
+                  background-image: url('https://assets-global.website-files.com/618e9316785b3582a5178502/65ca439063af578816bf4724_2792_AI Meeting Assistant_1600 x 900_white bg_080224-poster-00001.jpg');
+                "
+                muted=""
+                playsinline=""
+                data-wf-ignore="true"
+                data-object-fit="cover"
+              >
+                <source
+                  src="https://assets-global.website-files.com/618e9316785b3582a5178502/65ca439063af578816bf4724_2792_AI Meeting Assistant_1600 x 900_white bg_080224-transcode.mp4"
+                  data-wf-ignore="true"
+                />
+                <source
+                  src="https://assets-global.website-files.com/618e9316785b3582a5178502/65ca439063af578816bf4724_2792_AI Meeting Assistant_1600 x 900_white bg_080224-transcode.webm"
+                  data-wf-ignore="true"
+                />
+              </video>
+            </div>
+            <div
+              data-poster-url="https://assets-global.website-files.com/618e9316785b3582a5178502/65ca0fb3d23a535e296bb2d2_2792_AI Chat_1600x900_white bg_080224-poster-00001.jpg"
+              data-video-urls="https://assets-global.website-files.com/618e9316785b3582a5178502/65ca0fb3d23a535e296bb2d2_2792_AI Chat_1600x900_white bg_080224-transcode.mp4,https://assets-global.website-files.com/618e9316785b3582a5178502/65ca0fb3d23a535e296bb2d2_2792_AI Chat_1600x900_white bg_080224-transcode.webm"
+              data-autoplay="false"
+              data-loop="false"
+              data-wf-ignore="true"
+              class="chat__hero-video w-background-video w-background-video-atom"
+            >
+              <video
+                id="43301d98-7663-df75-7652-eafe1667e967-video"
+                style="
+                  background-image: url('https://assets-global.website-files.com/618e9316785b3582a5178502/65ca0fb3d23a535e296bb2d2_2792_AI Chat_1600x900_white bg_080224-poster-00001.jpg');
+                "
+                muted=""
+                playsinline=""
+                data-wf-ignore="true"
+                data-object-fit="cover"
+              >
+                <source
+                  src="https://assets-global.website-files.com/618e9316785b3582a5178502/65ca0fb3d23a535e296bb2d2_2792_AI Chat_1600x900_white bg_080224-transcode.mp4"
+                  data-wf-ignore="true"
+                />
+                <source
+                  src="https://assets-global.website-files.com/618e9316785b3582a5178502/65ca0fb3d23a535e296bb2d2_2792_AI Chat_1600x900_white bg_080224-transcode.webm"
+                  data-wf-ignore="true"
+                />
+              </video>
+            </div>
+            <div
+              data-poster-url="https://assets-global.website-files.com/618e9316785b3582a5178502/65ca0fbab931cdebe3b756e0_2792_Channels_1600x900_white bg_080224-poster-00001.jpg"
+              data-video-urls="https://assets-global.website-files.com/618e9316785b3582a5178502/65ca0fbab931cdebe3b756e0_2792_Channels_1600x900_white bg_080224-transcode.mp4,https://assets-global.website-files.com/618e9316785b3582a5178502/65ca0fbab931cdebe3b756e0_2792_Channels_1600x900_white bg_080224-transcode.webm"
+              data-autoplay="false"
+              data-loop="false"
+              data-wf-ignore="true"
+              class="chat__hero-video w-background-video w-background-video-atom"
+            >
+              <video
+                id="5d8ce918-1374-9884-24b9-ac033f6858ee-video"
+                style="
+                  background-image: url('https://assets-global.website-files.com/618e9316785b3582a5178502/65ca0fbab931cdebe3b756e0_2792_Channels_1600x900_white bg_080224-poster-00001.jpg');
+                "
+                muted=""
+                playsinline=""
+                data-wf-ignore="true"
+                data-object-fit="cover"
+              >
+                <source
+                  src="https://assets-global.website-files.com/618e9316785b3582a5178502/65ca0fbab931cdebe3b756e0_2792_Channels_1600x900_white bg_080224-transcode.mp4"
+                  data-wf-ignore="true"
+                />
+                <source
+                  src="https://assets-global.website-files.com/618e9316785b3582a5178502/65ca0fbab931cdebe3b756e0_2792_Channels_1600x900_white bg_080224-transcode.webm"
+                  data-wf-ignore="true"
+                />
+              </video>
+            </div>
+          </div>
+          <div class="w-layout-grid clients-grid">
+            <img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65ba7bb12bd967300c25e950_Amazon.svg"
+              loading="lazy"
+              id="w-node-b8f3fab6-81cc-4bcf-6232-3f8e26c41bd5-26c41bd4"
+              alt=""
+              class="home__client-logo anim-1"
+            /><img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/6523c5e1021afcb2b83dc8b5_mcdonalds.svg"
+              loading="lazy"
+              id="w-node-_30de184e-6615-8de1-26f2-4b66a9b4a96b-26c41bd4"
+              alt=""
+              class="home__client-logo anim-2"
+            /><img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/61f1554b86ff2cd5e536307b_ibm-logo.svg"
+              loading="lazy"
+              id="w-node-b8f3fab6-81cc-4bcf-6232-3f8e26c41bd7-26c41bd4"
+              alt=""
+              class="home__client-logo anim-1"
+            /><img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65ba7befab663a9b615307aa_NBC.svg"
+              loading="lazy"
+              id="w-node-b8f3fab6-81cc-4bcf-6232-3f8e26c41bda-26c41bd4"
+              alt=""
+              class="home__client-logo anim-2"
+            /><img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65ba7bb18129c7a788209ba9_Walgreens.svg"
+              loading="lazy"
+              id="w-node-b8f3fab6-81cc-4bcf-6232-3f8e26c41bd9-26c41bd4"
+              alt=""
+              class="home__client-logo anim-1"
+            /><img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65ba7bb1f604c692aa2850c8_UCLA.svg"
+              loading="lazy"
+              id="w-node-b8f3fab6-81cc-4bcf-6232-3f8e26c41bdb-26c41bd4"
+              alt=""
+              class="home__client-logo anim-1"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section bus__sliding-section">
+      <div
+        data-w-id="32d91f40-064a-e030-868c-f103f9cdca44"
+        class="wrap chat_content"
+      >
+        <div class="feature_point">
+          <img
+            src="https://assets-global.website-files.com/618e9316785b3582a5178502/65ca96699a5d2238f2ed8496_homepage-never-miss-a-detail%402x.jpg"
+            loading="eager"
+            id="w-node-_3ad1c165-c15d-2fc7-ac68-8108de3c7952-ecfa1921"
+            sizes="(max-width: 479px) 85vw, (max-width: 767px) 87vw, (max-width: 991px) 86vw, 47vw"
+            alt=""
+            srcset="
+              https://assets-global.website-files.com/618e9316785b3582a5178502/65ca96699a5d2238f2ed8496_homepage-never-miss-a-detail%402x-p-500.jpg   500w,
+              https://assets-global.website-files.com/618e9316785b3582a5178502/65ca96699a5d2238f2ed8496_homepage-never-miss-a-detail%402x-p-800.jpg   800w,
+              https://assets-global.website-files.com/618e9316785b3582a5178502/65ca96699a5d2238f2ed8496_homepage-never-miss-a-detail%402x-p-1080.jpg 1080w,
+              https://assets-global.website-files.com/618e9316785b3582a5178502/65ca96699a5d2238f2ed8496_homepage-never-miss-a-detail%402x.jpg        1216w
+            "
+            class="feature__point-img"
+          />
+          <div class="app__content-inner">
+            <h2
+              id="w-node-_3ad1c165-c15d-2fc7-ac68-8108de3c7959-ecfa1921"
+              class="text-xxxl cc-bold"
+            >
+              <span class="cc-text-blue">Never miss a detail</span> with AI
+              Meeting notes
+            </h2>
+            <div class="cc-text-subtle">
+              OtterPilot auto-joins Zoom, Google Meet, and Microsoft Teams
+              meetings to automatically take notes, allowing everyone to
+              participate freely. &nbsp;Follow along live on the web or on the
+              iOS or Android app.
+            </div>
+          </div>
+        </div>
+        <div class="feature_point">
+          <img
+            src="https://assets-global.website-files.com/618e9316785b3582a5178502/65ca966951ad96cb18e14d72_homepage-condense%402x.jpg"
+            loading="eager"
+            id="w-node-_3ad1c165-c15d-2fc7-ac68-8108de3c7960-ecfa1921"
+            sizes="(max-width: 479px) 85vw, (max-width: 767px) 87vw, (max-width: 991px) 86vw, 47vw"
+            alt=""
+            srcset="
+              https://assets-global.website-files.com/618e9316785b3582a5178502/65ca966951ad96cb18e14d72_homepage-condense%402x-p-500.jpg   500w,
+              https://assets-global.website-files.com/618e9316785b3582a5178502/65ca966951ad96cb18e14d72_homepage-condense%402x-p-800.jpg   800w,
+              https://assets-global.website-files.com/618e9316785b3582a5178502/65ca966951ad96cb18e14d72_homepage-condense%402x-p-1080.jpg 1080w,
+              https://assets-global.website-files.com/618e9316785b3582a5178502/65ca966951ad96cb18e14d72_homepage-condense%402x.jpg        1216w
+            "
+            class="feature__point-img"
+          />
+          <div class="app__content-inner">
+            <h2
+              id="w-node-_6dce9058-f02b-11aa-b329-cc4b9c869ce4-ecfa1921"
+              class="text-xxxl cc-bold"
+            >
+              Condense a 1 hour meeting into
+              <span class="cc-text-blue">30 seconds</span>
+            </h2>
+            <div class="cc-text-subtle">
+              Attended a 1 hour team meeting, but can’t remember a thing? Otter
+              generates a 30-second summary, keeping everyone informed.
+            </div>
+          </div>
+        </div>
+        <div class="feature_point">
+          <img
+            src="https://assets-global.website-files.com/618e9316785b3582a5178502/65ca9669dc0896b5f3030cae_homepage-skip%402x.jpg"
+            loading="eager"
+            id="w-node-_3ad1c165-c15d-2fc7-ac68-8108de3c796c-ecfa1921"
+            sizes="(max-width: 479px) 85vw, (max-width: 767px) 87vw, (max-width: 991px) 86vw, 47vw"
+            alt=""
+            srcset="
+              https://assets-global.website-files.com/618e9316785b3582a5178502/65ca9669dc0896b5f3030cae_homepage-skip%402x-p-500.jpg   500w,
+              https://assets-global.website-files.com/618e9316785b3582a5178502/65ca9669dc0896b5f3030cae_homepage-skip%402x-p-800.jpg   800w,
+              https://assets-global.website-files.com/618e9316785b3582a5178502/65ca9669dc0896b5f3030cae_homepage-skip%402x-p-1080.jpg 1080w,
+              https://assets-global.website-files.com/618e9316785b3582a5178502/65ca9669dc0896b5f3030cae_homepage-skip%402x.jpg        1216w
+            "
+            class="feature__point-img"
+          />
+          <div class="app__content-inner">
+            <h2
+              id="w-node-_18f768b8-3928-c023-b2b2-e68e2be9bc86-ecfa1921"
+              class="text-xxxl cc-bold"
+            >
+              Skip the tedious task of composing
+              <span class="cc-text-blue">action item</span> emails
+            </h2>
+            <div class="cc-text-subtle">
+              Otter automatically captures and assigns action items from the
+              meeting, with complete context of the discussion, keeping everyone
+              aligned on next steps.
+            </div>
+          </div>
+        </div>
+        <div class="home_as-seen-in">
+          <div class="home_as-label">As seen in</div>
+          <div class="home_as-logos">
+            <img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65caa125338b58aeaac89878_logo-washington-post.svg"
+              loading="lazy"
+              alt=""
+              class="home_as-logo is-wash"
+            /><img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65caa125d922496598efa657_logo-twsj.svg"
+              loading="lazy"
+              alt=""
+              class="home_as-logo is-wall"
+            /><img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65caa125dbbc6e2c8ed694a2_logo-forbes.svg"
+              loading="lazy"
+              alt=""
+              class="home_as-logo is-forbes"
+            /><img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65caa12518a9716dbda8293b_logo-fast-company.svg"
+              loading="lazy"
+              alt=""
+              class="home_as-logo is-fast"
+            /><img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65caa125cbf4c2fd421cb84e_logo-mashable.svg"
+              loading="lazy"
+              alt=""
+              class="home_as-logo is-mash"
+            /><img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65caa1257af832a1b9a07a3f_logo-techcrunch.svg"
+              loading="lazy"
+              alt=""
+              class="home_as-logo is-tech"
+            /><img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65caa12508754eab01abbf8d_logo-pc.svg"
+              loading="lazy"
+              alt=""
+              class="home_as-logo is-pc"
+            /><img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65caa125b3bd55d00222c07a_logo-wired.svg"
+              loading="lazy"
+              alt=""
+              class="home_as-logo is-wired"
+            />
+          </div>
+        </div>
+        <img
+          src="https://assets-global.website-files.com/618e9316785b3582a5178502/6191777178c8b3b53cd4ecb0_left-otter.svg"
+          loading="lazy"
+          width="95"
+          style="
+            -webkit-transform: translate3d(-100%, 0, 0) scale3d(1, 1, 1)
+              rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            -moz-transform: translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+              rotateY(0) rotateZ(0) skew(0, 0);
+            -ms-transform: translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+              rotateY(0) rotateZ(0) skew(0, 0);
+            transform: translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+              rotateY(0) rotateZ(0) skew(0, 0);
+          "
+          alt=""
+          class="left-otter"
+        />
+      </div>
+    </div>
+    <div class="section bus__sliding-section">
+      <div
+        data-w-id="ad5de6fe-8c88-bd59-edf3-b273ab4a8a78"
+        class="wrap hp_points"
+      >
+        <img
+          src="https://assets-global.website-files.com/618e9316785b3582a5178502/6191777194e4100491e7f318_right-otter.svg"
+          loading="lazy"
+          width="95"
+          style="
+            -webkit-transform: translate3d(100%, 0, 0) scale3d(1, 1, 1)
+              rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+            -moz-transform: translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+              rotateY(0) rotateZ(0) skew(0, 0);
+            -ms-transform: translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+              rotateY(0) rotateZ(0) skew(0, 0);
+            transform: translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0)
+              rotateY(0) rotateZ(0) skew(0, 0);
+          "
+          alt=""
+          class="right-otter"
+        />
+        <div class="hp_points-container">
+          <a href="sales-teams/index.html" class="hp-point w-inline-block"
+            ><img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65caa74d0f9ec061e3c515c5_hp-icon-01.svg"
+              loading="lazy"
+              alt=""
+              class="hp-point_icon"
+            />
+            <div class="cc-bold">Sales Teams</div>
+            <div class="text-md cc-90">
+              OtterPilot for Sales extracts Sales Insights, writes follow-up
+              emails, and pushes call notes to Salesforce and Hubspot.
+            </div></a
+          ><a href="business/index.html" class="hp-point w-inline-block"
+            ><img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65caa74d5f1d7197cc6a430a_hp-icon-02.svg"
+              loading="lazy"
+              alt=""
+              class="hp-point_icon"
+            />
+            <div class="cc-bold">Business</div>
+            <div class="text-md cc-90">
+              Otter empowers everyone to engage and be more productive in
+              meetings with real-time automated notes, summaries, and action
+              items.
+            </div></a
+          ><a href="business/index.html" class="hp-point w-inline-block"
+            ><img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65caa74d022a0721d6779695_hp-icon-03.svg"
+              loading="lazy"
+              alt=""
+              class="hp-point_icon"
+            />
+            <div class="cc-bold">Marketing Teams</div>
+            <div class="text-md cc-90">
+              Otter automatically assigns action items from all your
+              cross-functional team meetings, helping everyone stay aligned.
+            </div></a
+          ><a href="business/index.html" class="hp-point w-inline-block"
+            ><img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65caa74d4bcf08efdbc853b8_hp-icon-04.svg"
+              loading="lazy"
+              alt=""
+              class="hp-point_icon"
+            />
+            <div class="cc-bold">Recruiting Teams</div>
+            <div class="text-md cc-90">
+              Otter transcribes and summarizes interviews, reducing the time and
+              effort required to evaluate candidates.
+            </div></a
+          ><a href="media-teams/index.html" class="hp-point w-inline-block"
+            ><img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65caa74d8beb8b3f245fde4d_hp-icon-05.svg"
+              loading="lazy"
+              alt=""
+              class="hp-point_icon"
+            />
+            <div class="cc-bold">Media</div>
+            <div class="text-md cc-90">
+              Otters helps you tell the stories that matter through automated,
+              real-time transcription.
+            </div></a
+          ><a href="education/index.html" class="hp-point w-inline-block"
+            ><img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65caa74c6348c3fd94912787_hp-icon-06.svg"
+              loading="lazy"
+              alt=""
+              class="hp-point_icon"
+            />
+            <div class="cc-bold">Education</div>
+            <div class="text-md cc-90">
+              Otter provides faculty and students with real time captions and
+              notes for in-person and virtual lectures, classes or meetings.
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="section bus__sliding-section">
+      <div class="wrap hp_automate">
+        <h2 class="text-xxl cc-bold">
+          Automate workflows to
+          <span class="cc-text-blue">increase productivity</span> for your team
+        </h2>
+        <div>
+          <div class="hp-automate-main">
+            <img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65cab4de2068ffdd5c831cfe_automate-main%402x.jpg"
+              loading="lazy"
+              sizes="(max-width: 479px) 85vw, (max-width: 767px) 89vw, (max-width: 991px) 86vw, 81vw"
+              srcset="
+                https://assets-global.website-files.com/618e9316785b3582a5178502/65cab4de2068ffdd5c831cfe_automate-main%402x-p-500.jpg   500w,
+                https://assets-global.website-files.com/618e9316785b3582a5178502/65cab4de2068ffdd5c831cfe_automate-main%402x-p-800.jpg   800w,
+                https://assets-global.website-files.com/618e9316785b3582a5178502/65cab4de2068ffdd5c831cfe_automate-main%402x-p-1080.jpg 1080w,
+                https://assets-global.website-files.com/618e9316785b3582a5178502/65cab4de2068ffdd5c831cfe_automate-main%402x-p-1600.jpg 1600w,
+                https://assets-global.website-files.com/618e9316785b3582a5178502/65cab4de2068ffdd5c831cfe_automate-main%402x-p-2000.jpg 2000w,
+                https://assets-global.website-files.com/618e9316785b3582a5178502/65cab4de2068ffdd5c831cfe_automate-main%402x.jpg        2032w
+              "
+              alt=""
+              class="image-13"
+            />
+          </div>
+        </div>
+        <div class="hp_points-container">
+          <div class="hp-point-item">
+            <img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65caae24338b58aeaad0a919_hp-icon-07.svg"
+              loading="lazy"
+              alt=""
+              class="hp-point_icon"
+            />
+            <div class="cc-bold">Assigns action items</div>
+            <div class="text-md cc-90">
+              Otter automatically identifies and assigns action items to
+              teammates, saving the meeting leader time while keeping the team
+              aligned on next steps.
+            </div>
+          </div>
+          <div class="hp-point-item">
+            <img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65caae2384c0f87655614c2a_hp-icon-08.svg"
+              loading="lazy"
+              alt=""
+              class="hp-point_icon"
+            />
+            <div class="cc-bold">Posts to Slack</div>
+            <div class="text-md cc-90">
+              Otter automatically shares meeting notes and summaries with
+              teammates via email and in the team’s Slack Channel.
+            </div>
+          </div>
+          <div class="hp-point-item">
+            <img
+              src="https://assets-global.website-files.com/618e9316785b3582a5178502/65caae2354591b0ce059d4e7_hp-icon-09.svg"
+              loading="lazy"
+              alt=""
+              class="hp-point_icon"
+            />
+            <div class="cc-bold">Integrates with your workflow</div>
+            <div class="text-md cc-90">
+              Otter integrates with tools your team uses everyday, including
+              Salesforce, HubSpot, Egnyte, Amazon S3, Snowflake, and Microsoft
+              SharePoint.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-w-id="e458b1a3-e6da-5a03-21ca-162b1c30ff7f"
+      class="footer__container"
+    >
+      <div class="footer__bubble">
+        <img
+          src="https://assets-global.website-files.com/618e9316785b3582a5178502/61915b8ce44b94aface19665_footer-sliding.svg"
+          loading="eager"
+          alt=""
+          class="footer-image"
+        />
+      </div>
+      <div class="section cc-dark-blue">
+        <div class="wrap footer__wrap">
+          <a
+            data-tracking-type="button"
+            id="w-node-e458b1a3-e6da-5a03-21ca-162b1c30ff84-1c30ff7f"
+            href="#"
+            class="footer__brand w-inline-block"
+            ><div class="logo w-embed">
+              <svg
+                width="80"
+                height="32"
+                viewBox="0 0 80 32"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M51.4596 0.432373C53.8478 0.432373 55.7839 2.36844 55.7839 4.7567V26.8108C55.7839 29.199 53.8478 31.1351 51.4596 31.1351C49.0713 31.1351 47.1353 29.199 47.1353 26.8108V4.7567C47.1353 2.36844 49.0713 0.432373 51.4596 0.432373Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M39.3512 0.432373C41.7394 0.432373 43.6755 2.36844 43.6755 4.7567V26.8108C43.6755 29.199 41.7394 31.1351 39.3512 31.1351C36.9629 31.1351 35.0269 29.199 35.0269 26.8108V4.7567C35.0269 2.36844 36.9629 0.432373 39.3512 0.432373Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M63.5675 10.3784C65.9557 10.3784 67.8918 12.3145 67.8918 14.7027V17.2973C67.8918 19.6856 65.9557 21.6217 63.5675 21.6217C61.1792 21.6217 59.2432 19.6856 59.2432 17.2973V14.7027C59.2432 12.3145 61.1792 10.3784 63.5675 10.3784Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M75.6759 6.05396C78.0641 6.05396 80.0002 7.99002 80.0002 10.3783V21.1891C80.0002 23.5773 78.0641 25.5134 75.6759 25.5134C73.2876 25.5134 71.3516 23.5773 71.3516 21.1891V10.3783C71.3516 7.99002 73.2876 6.05396 75.6759 6.05396Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  d="M15.7996 23.281C19.9967 23.281 23.3992 19.8786 23.3992 15.6814C23.3992 11.4843 19.9967 8.08183 15.7996 8.08183C11.6024 8.08183 8.19998 11.4843 8.19998 15.6814C8.19998 19.8786 11.6024 23.281 15.7996 23.281ZM15.7838 31.5676C7.06664 31.5676 0 24.5009 0 15.7838C0 7.06664 7.06664 0 15.7838 0C24.5009 0 31.5676 7.06664 31.5676 15.7838C31.5676 24.5009 24.5009 31.5676 15.7838 31.5676Z"
+                  fill="currentColor"
+                ></path>
+              </svg></div
+          ></a>
+          <div class="w-layout-grid footer__link-wrap">
+            <div class="text-xs cc-caps cc-semi">Solutions</div>
+            <a
+              data-tracking-type="button"
+              href="business/index.html"
+              class="footer__link"
+              >For Business</a
+            ><a
+              data-tracking-type="button"
+              href="sales-teams/index.html"
+              class="footer__link"
+              >For Sales</a
+            ><a
+              data-tracking-type="button"
+              href="education/index.html"
+              class="footer__link"
+              >For Education</a
+            ><a
+              href="media-teams/index.html"
+              data-tracking-type="button"
+              class="footer__link"
+              >For Media</a
+            ><a
+              href="transcription/index.html"
+              data-tracking-type="button"
+              class="footer__link"
+              >For Transcription</a
+            >
+          </div>
+          <div class="w-layout-grid footer__link-wrap">
+            <div class="text-xs cc-caps cc-semi">Apps &amp; Integrations</div>
+            <a
+              data-tracking-type="button"
+              href="integrations/video-conferencing/index.html"
+              class="footer__link down"
+              >All Apps</a
+            ><a
+              data-tracking-type="button"
+              href="https://apps.apple.com/us/app/otter-voice-meeting-notes/id1276437113"
+              target="_blank"
+              class="footer__link down"
+              >iOS</a
+            ><a
+              data-tracking-type="button"
+              href="https://play.google.com/store/apps/details?id=com.aisense.otter"
+              target="_blank"
+              class="footer__link down"
+              >Android</a
+            ><a
+              data-tracking-type="button"
+              href="https://chrome.google.com/webstore/detail/otterai-transcribe-record/bnmojkbbkkonlmlfgejehefjldooiedp"
+              target="_blank"
+              class="footer__link down"
+              >Chrome Extension</a
+            ><a
+              data-tracking-type="button"
+              href="apps/slack/index.html"
+              class="footer__link down"
+              >For Slack</a
+            ><a
+              data-tracking-type="button"
+              href="zoom/index.html"
+              class="footer__link down"
+              >For Zoom</a
+            >
+          </div>
+          <div class="w-layout-grid footer__link-wrap">
+            <div class="text-xs cc-caps cc-semi">Resources</div>
+            <a
+              data-tracking-type="button"
+              href="blog/index.html"
+              class="footer__link res"
+              >Blog</a
+            ><a
+              data-tracking-type="button"
+              href="careers/index.html"
+              class="footer__link res"
+              >Careers</a
+            ><a
+              data-tracking-type="button"
+              href="press/index.html"
+              class="footer__link res"
+              >Press</a
+            ><a
+              data-tracking-type="button"
+              href="https://help.otter.ai/hc/en-us"
+              target="_blank"
+              class="footer__link res"
+              >Help &amp; Support</a
+            ><a
+              data-tracking-type="button"
+              href="media-kit/index.html"
+              class="footer__link res"
+              >Media Kit</a
+            ><a
+              data-tracking-type="button"
+              href="https://app.impact.com/campaign-promo-signup/Otterai.brand?execution=e2s1"
+              target="_blank"
+              class="footer__link res"
+              >Affiliate</a
+            ><a
+              data-tracking-type="button"
+              href="privacy-security/index.html"
+              class="footer__link res"
+              >Privacy &amp;&nbsp;Security</a
+            >
+          </div>
+          <div
+            id="w-node-e458b1a3-e6da-5a03-21ca-162b1c30ffa1-1c30ff7f"
+            class="w-layout-grid footer__foot-grid"
+          >
+            <a
+              href="index.html"
+              id="footeryear"
+              data-tracking-type="button"
+              aria-current="page"
+              class="footer__foot-link is-otter w--current"
+              >© <span class="footer__year">2022</span> Otter.ai</a
+            ><a
+              data-tracking-type="button"
+              href="pricing/index.html"
+              class="footer__foot-link"
+              >Pricing</a
+            ><a
+              href="terms-of-service/index.html"
+              data-tracking-type="button"
+              class="footer__foot-link"
+              >Terms of Service</a
+            ><a
+              data-tracking-type="button"
+              href="privacy-policy/index.html"
+              class="footer__foot-link"
+              >Privacy Policy</a
+            ><a
+              data-tracking-type="button"
+              href="jp/index.html"
+              class="footer__foot-link"
+              >JP</a
+            >
+            <div id="cookie-settings" class="footer__foot-link">
+              Cookie Settings
+            </div>
+          </div>
+          <div id="w-node-e458b1a3-e6da-5a03-21ca-162b1c30ffaa-1c30ff7f">
+            <div class="footer__follow-social">
+              <div class="text-xs cc-caps cc-semi">why otter.ai</div>
+            </div>
+            <div class="w-layout-grid footer__socials">
+              <a
+                data-tracking-type="button"
+                href="https://www.linkedin.com/company/otter-ai/mycompany/"
+                target="_blank"
+                class="w-inline-block"
+                ><div class="footer__social-icon lnkd w-embed">
+                  <svg
+                    width="24"
+                    height="25"
+                    viewBox="0 0 24 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19.875 4.09375H4.125C3.71079 4.09375 3.375 4.42954 3.375 4.84375V20.5938C3.375 21.008 3.71079 21.3438 4.125 21.3438H19.875C20.2892 21.3438 20.625 21.008 20.625 20.5938V4.84375C20.625 4.42954 20.2892 4.09375 19.875 4.09375Z"
+                      stroke="currentColor"
+                      stroke-width="1.4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M11.25 11.2188V17.2188"
+                      stroke="currentColor"
+                      stroke-width="1.4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M8.25 11.2188V17.2188"
+                      stroke="currentColor"
+                      stroke-width="1.4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M11.25 13.8438C11.25 13.1476 11.5266 12.4799 12.0188 11.9876C12.5111 11.4953 13.1788 11.2188 13.875 11.2188C14.5712 11.2188 15.2389 11.4953 15.7312 11.9876C16.2234 12.4799 16.5 13.1476 16.5 13.8438V17.2188"
+                      stroke="currentColor"
+                      stroke-width="1.4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M8.25 9.34375C8.87132 9.34375 9.375 8.84007 9.375 8.21875C9.375 7.59743 8.87132 7.09375 8.25 7.09375C7.62868 7.09375 7.125 7.59743 7.125 8.21875C7.125 8.84007 7.62868 9.34375 8.25 9.34375Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg></div></a
+              ><a
+                data-tracking-type="button"
+                href="https://www.facebook.com/OtterAI"
+                class="w-inline-block"
+                ><div class="footer__social-icon fb w-embed">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M11.7059 21.8194L10.3242 21.6104C5.57637 20.8923 2 16.7871 2 11.8643C2 6.41525 6.41525 2 11.8643 2C17.3133 2 21.7285 6.41525 21.7285 11.8643C21.7285 16.7955 18.1099 20.8935 13.3704 21.6104L11.9887 21.8194V21.8622L11.8473 21.8408L11.7059 21.8622V21.8194ZM15.1222 14.3077H13.1539V20.1787C13.6523 20.1033 14.1363 19.984 14.6018 19.8248C17.9076 18.6941 20.2806 15.553 20.2806 11.8643C20.2806 7.21494 16.5136 3.44797 11.8643 3.44797C7.21494 3.44797 3.44797 7.21494 3.44797 11.8643C3.44797 15.5525 5.79413 18.6932 9.09277 19.8243C9.55779 19.9838 10.0418 20.1033 10.5407 20.1787V14.3077H8.40272V11.8643H10.5407V10.0317C10.5407 7.92761 11.7964 6.73982 13.6968 6.73982C14.6471 6.73982 15.5973 6.90951 15.5973 6.90951V8.97964H14.5453C13.4932 8.97964 13.1539 9.62444 13.1539 10.3032V11.8643H15.4955L15.1222 14.3077Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg></div></a
+              ><a
+                data-tracking-type="button"
+                href="https://twitter.com/otter_ai"
+                target="_blank"
+                class="w-inline-block"
+                ><div class="footer__social-icon tw w-embed">
+                  <svg
+                    width="24"
+                    height="25"
+                    viewBox="0 0 24 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.9995 8.96902C11.9996 8.10742 12.2963 7.27212 12.8398 6.60355C13.3833 5.93499 14.1404 5.47392 14.9838 5.29788C15.8272 5.12184 16.7056 5.24155 17.4711 5.63689C18.2367 6.03223 18.8427 6.67909 19.1875 7.46872L22.4995 7.46875L19.4749 10.4934C19.278 13.5355 17.9306 16.3887 15.7065 18.4736C13.4823 20.5584 10.5481 21.7187 7.49953 21.7188C4.49953 21.7188 3.74953 20.5938 3.74953 20.5938C3.74953 20.5938 6.74953 19.4688 8.24953 17.2188C8.24953 17.2188 2.24953 14.2188 3.74953 5.96875C3.74953 5.96875 7.49953 9.71875 11.9982 10.4688L11.9995 8.96902Z"
+                      stroke="currentColor"
+                      stroke-width="1.4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg></div
+              ></a>
+            </div>
+          </div>
+          <div
+            id="w-node-fb7d5e3a-2640-f2ce-bab9-c7f55d831b10-1c30ff7f"
+            class="cc-hidden w-embed w-script"
+          >
+            <script>
+              "use strict";
+              // when the DOM is ready
+              document.addEventListener("DOMContentLoaded", function () {
+                // set the fs-hacks selector
+                const YEAR_SELECTOR = '[fs-hacks-element="hack14-year"]';
+                // get the the span element
+                const yearSpan = document.querySelector(".footer__year");
+                if (!yearSpan) return;
+                // get the current year
+                const currentYear = new Date().getFullYear();
+                // set the year span element's text to the current year
+                yearSpan.innerText = currentYear.toString();
+              });
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="css--global w-embed">
+      <style>
+        /* --- Basics --- */
+        * {
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+        /* Make the fonts nice! */
+        body {
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+        /* Link's colored from parent */
+        a {
+          color: inherit;
+        }
+
+        /* REM Magic */
+        :root {
+          font-size: 62.5%;
+        }
+        /*@media screen and (min-width: 1921px) {
+	:root {
+		font-size: 11.5px;
+	}
+}
+@media screen and (max-width: 1920px) and (min-width: 1701px) {
+	:root {
+		font-size: 10.5px;
+	}
+}*/
+        @media screen and (max-width: 1260px) and (min-width: 1201px) {
+          :root {
+            font-size: 9.2px;
+          }
+        }
+        @media screen and (max-width: 1200px) and (min-width: 1121px) {
+          :root {
+            font-size: 8.6px;
+          }
+        }
+        @media screen and (max-width: 1120px) and (min-width: 992px) {
+          :root {
+            font-size: 7.9px;
+          }
+        }
+        @media screen and (max-width: 991px) {
+          :root {
+            font-size: 10px;
+          }
+        }
+        @media screen and (max-width: 479px) {
+          :root {
+            font-size: 10px;
+          }
+        }
+
+        .w-slider-dot {
+          width: 10px;
+          height: 8px;
+          background: #8294a5;
+          opacity: 0.4;
+          transition-property: width;
+          transition-duration: 300ms;
+          transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        }
+
+        .w-slider-nav.w-round > div {
+          border-radius: 8px;
+        }
+
+        .w-slider-dot.w-active {
+          width: 20px;
+          height: 8px;
+          background-color: #007aff;
+          opacity: 1;
+        }
+
+        .w-nav-overlay,
+        .nav-menu {
+          top: 0;
+          height: auto !important;
+        }
+
+        .navbar.floating {
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06),
+            8px 15px 17px rgba(0, 0, 0, 0.05),
+            10px 58.5px 41px 16px rgba(24, 57, 89, 0.07);
+          position: sticky;
+          left: 0%;
+          top: 0%;
+          right: 0%;
+          bottom: auto;
+          background-color: white;
+        }
+      </style>
+    </div>
+    <script
+      src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=618e9316785b3582a5178502"
+      type="text/javascript"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://assets-global.website-files.com/618e9316785b3582a5178502/js/otterai-website.f4bcc73bf.js"
+      type="text/javascript"
+    ></script>
+    <!-- Cookie Disabled Check -->
+    <script>
+      if (!navigator.cookieEnabled) {
+        document.body.innerHTML = `
+      <div style="min-height: 80vh;display: flex; align-items: center; justify-content: center; padding: 3rem;">
+        <p style="max-width: 42rem;font-size:2rem;text-align: center">Cookies are used in order to make Otter.ai website and applications work. To continue using Otter.ai, please enable cookies in your browser.</p>
+      </div>
+    `;
+      }
+    </script>
+
+    <!-- Disable Scroll when Menu Opens -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".menu-button").forEach((trigger) => {
+          trigger.addEventListener("click", function () {
+            if (
+              !document.querySelector("body").classList.contains("overflow")
+            ) {
+              document
+                .querySelectorAll("body")
+                .forEach((target) => target.classList.add("overflow"));
+            } else {
+              document
+                .querySelectorAll("body")
+                .forEach((target) => target.classList.remove("overflow"));
+            }
+          });
+        });
+        document.querySelectorAll(".nav__dropdown-link").forEach((trigger) => {
+          trigger.addEventListener("click", function () {
+            document
+              .querySelectorAll("body")
+              .forEach((target) => target.classList.remove("overflow"));
+          });
+        });
+      });
+    </script>
+
+    <!-- Floating Menu -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".nav__trigger").forEach((trigger) => {
+          new IntersectionObserver(
+            (entries, observer) => {
+              entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                  document
+                    .querySelectorAll(".navbar")
+                    .forEach((target) => target.classList.remove("floating"));
+                } else {
+                  document
+                    .querySelectorAll(".navbar")
+                    .forEach((target) => target.classList.add("floating"));
+                }
+              });
+            },
+            {
+              threshold: 0,
+            }
+          ).observe(trigger);
+        });
+      });
+    </script>
+
+    <!-- Binding Amplitude tracking events -->
+    <script type="text/javascript">
+      function onClickAmplitudeTracking(event) {
+        const el = event.currentTarget;
+        const trackingType = el.dataset.trackingType;
+
+        switch (trackingType) {
+          case "button":
+          default:
+            amplitude.track("General_ButtonAction", {
+              UIElementID: `${
+                el.textContent ? el.textContent.slice(0, 48) : ""
+              }|${el.className ? el.className : ""}|${el.href ? el.href : ""}`,
+            });
+            break;
+        }
+      }
+
+      const elements = document.querySelectorAll("a");
+
+      for (const el of elements) {
+        el.addEventListener("click", onClickAmplitudeTracking);
+      }
+    </script>
+    <!-- End binding Amplitude tracking events -->
+
+    <!-- Parameters -->
+    <script>
+      var aTags = document.querySelectorAll("a");
+
+      aTags.forEach(function (aTag) {
+        var currentHref = aTag.href;
+
+        if (currentHref) {
+          var url = new URL(currentHref);
+
+          if (
+            url.href.startsWith("/") ||
+            url.href.startsWith(".") ||
+            (url.href.startsWith("http") &&
+              (url.hostname === window.location.hostname ||
+                url.hostname === "otter.ai"))
+          ) {
+            if (url.search) {
+              var currentUrl = new URL(window.location.href);
+              currentUrl.searchParams.forEach(function (value, key) {
+                url.searchParams.set(key, value);
+              });
+            } else {
+              url.search = window.location.search;
+            }
+            aTag.setAttribute("href", url.href);
+          }
+        }
+      });
+    </script>
+
+    <noscript>
+      <img
+        src="https://ws.zoominfo.com/pixel/61f17c824827d70015787576"
+        width="1"
+        height="1"
+        style="display: none"
+        alt="websights"
+      />
+    </noscript>
+
+    <style>
+      #ot-sdk-btn.ot-sdk-show-settings,
+      #ot-sdk-btn.optanon-show-settings {
+        transition-property: border-color, color;
+        transition-duration: 250ms, 250ms;
+        transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1),
+          cubic-bezier(0.215, 0.61, 0.355, 1);
+        font-size: 1rem;
+        line-height: 1.3;
+        font-weight: 600;
+        letter-spacing: 0.16rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        border: none;
+        height: auto;
+        white-space: normal;
+        word-wrap: break-word;
+        padding: 0;
+        background: transparent;
+      }
+      #ot-sdk-btn.ot-sdk-show-settings:hover,
+      #ot-sdk-btn.optanon-show-settings:hover {
+        color: #52d0f0;
+        background: transparent;
+      }
+    </style>
+
+    <script>
+      $("#cookie-settings").on("click", function () {
+        OneTrust.ToggleInfoDisplay();
+      });
+    </script>
+    <script>
+      $(".wrap.chat_hero").each(function () {
+        let index = 0;
+        let items = $(this).find(".home__hero-tabs-item");
+        let content = $(this).find(".home__hero-content");
+        let videos = $(this).find(".chat__hero-video");
+
+        // Click
+        items.click(function () {
+          index = $(this).index();
+          items.removeClass("is-active");
+          $(this).addClass("is-active");
+          playVideo(index);
+        });
+
+        function playVideo(newIndex = null) {
+          if (newIndex !== null) {
+            index = newIndex;
+          }
+
+          // Get Current
+          let videoBox = videos.get(index); // Get native HTMLDivElement
+          let video = $(videoBox).find("video")[0];
+
+          // Hide all
+          content.add(videos).stop().hide();
+
+          // Reset all videos
+          videos.each(function () {
+            let video = $(this).find("video")[0];
+            video.pause();
+            video.currentTime = 0; // This will reset the video
+          });
+
+          // Show Current
+          content.eq(index).fadeIn(500);
+          $(videoBox).fadeIn(500, function () {
+            // Use fadeIn to smoothly display the video
+            video.play();
+          });
+
+          // Active Class
+          items.removeClass("is-active").eq(index).addClass("is-active");
+        }
+
+        // Make sure the loop and autoplay is OFF
+        videos.find("video").each(function (i, videoElem) {
+          $(videoElem).on("timeupdate", function () {
+            if (this.currentTime === this.duration) {
+              console.log(`Video with index ${i} ended`);
+              index = index + 1 === videos.length ? 0 : index + 1;
+              playVideo(index);
+            }
+          });
+        });
+
+        playVideo(); // Init Call
+      });
+    </script>
+  </body>
+</html>
